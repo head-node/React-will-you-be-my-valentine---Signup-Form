@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../MainForm/styles.css"
 const MainForm = (props) => {
   return (
     <div className="formContainer">

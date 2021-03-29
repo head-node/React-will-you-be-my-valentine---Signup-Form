@@ -1,5 +1,5 @@
 import React, { Component, useState } from "react";
-import MainForm from "./forms";
+import MainForm from "./MainForm/";
 import "../styles/App.css";
 
 const App = () => {
@@ -42,7 +42,7 @@ const App = () => {
       e.preventDefault();
       return;
     }
-    else if(!uName.match(/^[0-9a-zA-Z]+$/)){
+    else if(!uName.match(/^[0-9a-z]+$/)){
       setErrormsg("Name is not alphanumeric");
       e.preventDefault();
       return;

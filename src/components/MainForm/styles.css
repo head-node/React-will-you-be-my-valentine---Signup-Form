@@ -1,0 +1,24 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 3rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+label{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+input{
+    margin: 10px 0 10px 0;
+}
+select{
+    margin: 10px 0 10px 0;
+}
