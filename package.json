@@ -12,10 +12,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^4.6.0",
     "css-loader": "^4.3.0",
     "jest-junit": "^11.1.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "reactstrap": "^8.9.0",
     "style-loader": "^1.2.1",
     "webpack-cli": "^3.3.12"
   },
